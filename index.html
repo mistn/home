@@ -223,7 +223,10 @@
 				<h1>Memento Mori</h1>
 				<p>Remember, You Will Die.<br />Time never waits.<br />It delivers all equally to the same end.</p>
 			</div>
-			<img id="p3relogo" src="img/MIUO.svg" alt="MIUO" />
+			<picture id="p3relogo">
+        <source media="(max-width: 768px)" srcset="img/MIUO-dark.svg">
+        <img src="img/MIUO.svg" alt="MIUO" style="width:100%;height:auto;display:block" />
+      </picture>
 		</div>
 		<script>
 			document.addEventListener('contextmenu', function(e) {
